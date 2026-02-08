@@ -879,7 +879,7 @@ export default function App() {
   return (
     <div style={{ maxWidth: 1100, margin: "0 auto", padding: 16, fontFamily: "system-ui, Arial" }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 12 }}>
-        <h1 style={{ margin: 0 }}>Trip Packer</h1>
+        <h1 style={{ margin: 0 }}>PokéPack</h1>
 
         <label style={{ display: "flex", alignItems: "center", gap: 10 }}>
           <input type="checkbox" checked={isPackingMode} onChange={(e) => setIsPackingMode(e.target.checked)} />
